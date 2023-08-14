@@ -22,3 +22,13 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+ change configuration database mysql: 
+ ``
+ config/database.yml
+ ``
+ change password 
+ and username and database name
+ and 
+ ```
+  run rails db:create
+ ```
