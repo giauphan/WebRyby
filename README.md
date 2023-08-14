@@ -30,5 +30,5 @@ Things you may want to cover:
  and username and database name
  and 
  ```
-  run rails db:create
+rails db:create
  ```
