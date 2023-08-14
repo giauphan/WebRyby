@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to MyApp</title>
+  </head>
+  <body>
+    <h1><%= @current_time %></h1>
+    <p><%= @greeting %></p>
+    <form>
+      <label class="block">
+        <span class="block text-sm font-medium text-slate-700">Email</span>
+        <input type="email" class="peer ..."/>
+        <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
+          Please provide a valid email address.
+        </p>
+      </label>
+    </form>
+  </body>
+</html>
