@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+user_roles = UserRole::ROLES.values.map do |role_name|
+    UserRole.create!(name: role_name)
+  end
+  
